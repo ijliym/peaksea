@@ -1,3 +1,7 @@
+# peaksea
+
+	Refined color, contains both gui and cterm256 for dark and light background.
+
 This is a mirror of http://www.vim.org/scripts/script.php?script_id=760
 
 The peak sea color (peaksea.vim) is the new version of the well-known colorscheme ps_color.
