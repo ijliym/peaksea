@@ -65,7 +65,7 @@ if &background=='light'
   hi Statement          guifg=#2060a8   guibg=NONE      gui=NONE
   hi Type               guifg=#0850a0   guibg=NONE      gui=NONE
   hi Todo               guifg=#800000   guibg=#e0e090   gui=NONE
-  " NOTE THIS IS IN THE WARM SECTION
+  " Note: THIS IS IN THE WARM SECTION
   hi Error              guifg=#c03000   guibg=NONE      gui=NONE
   hi Identifier         guifg=#a030a0   guibg=NONE      gui=NONE
   hi ModeMsg            guifg=fg        guibg=#b0b0e0   gui=NONE
@@ -91,7 +91,7 @@ if &background=='light'
   hi VertSplit          guifg=fg        guibg=#c0c0c0   gui=NONE
   hi Underlined         guifg=#6a5acd   guibg=NONE      gui=underline
   hi Ignore             guifg=bg        guibg=NONE
-  " NOTE THIS IS IN THE WARM SECTION
+  " Note: THIS IS IN THE WARM SECTION
   if v:version >= 700
     if has('spell')
       hi SpellBad       guifg=NONE      guibg=NONE      guisp=#c03000
@@ -179,7 +179,7 @@ if &background=='light'
     hi Statement        ctermfg=25      ctermbg=NONE    cterm=NONE
     hi Type             ctermfg=25      ctermbg=NONE    cterm=NONE
     hi Todo             ctermfg=88      ctermbg=186     cterm=NONE
-    " NOTE THIS IS IN THE WARM SECTION
+    " Note: THIS IS IN THE WARM SECTION
     hi Error            ctermfg=160     ctermbg=NONE    cterm=NONE
     hi Identifier       ctermfg=127     ctermbg=NONE    cterm=NONE
     hi ModeMsg          ctermfg=fg      ctermbg=146     cterm=NONE
@@ -207,7 +207,7 @@ if &background=='light'
     hi VertSplit        ctermfg=fg      ctermbg=250     cterm=NONE
     hi Underlined       ctermfg=62      ctermbg=NONE    cterm=underline
     hi Ignore           ctermfg=bg      ctermbg=NONE
-    " NOTE THIS IS IN THE WARM SECTION
+    " Note: THIS IS IN THE WARM SECTION
     if v:version >= 700
       if has('spell')
         if 0
@@ -281,7 +281,7 @@ elseif &background=='dark'
   hi Search             guifg=NONE       guibg=#800000  gui=NONE
   hi Visual             guifg=#000000    guibg=#a6caf0  gui=NONE
   hi Cursor             guifg=#000000    guibg=#00f000  gui=NONE
-  " NOTE THIS IS IN THE COOL SECTION
+  " Note: THIS IS IN THE COOL SECTION
   hi CursorIM           guifg=#000000    guibg=#f0c0f0  gui=NONE
   hi StatusLine         guifg=#000000    guibg=#a6caf0  gui=NONE
   hi LineNr             guifg=#b0b0b0    guibg=NONE     gui=NONE
@@ -308,7 +308,7 @@ elseif &background=='dark'
   hi VertSplit          guifg=#000000    guibg=#c0c0c0  gui=NONE
   hi Underlined         guifg=#80a0ff    guibg=NONE     gui=underline
   hi Ignore             guifg=#000000    guibg=NONE
-  " NOTE THIS IS IN THE COOL SECTION
+  " Note: THIS IS IN THE COOL SECTION
   if v:version >= 700
     if has('spell')
     " the guisp= could only support in Vim 7
@@ -521,7 +521,7 @@ elseif &background=='dark'
     hi Search           ctermfg=NONE    ctermbg=88      cterm=NONE
     hi Visual           ctermfg=16      ctermbg=153     cterm=NONE
     hi Cursor           ctermfg=16      ctermbg=46      cterm=NONE
-    " NOTE THIS IS IN THE COOL SECTION
+    " Note: THIS IS IN THE COOL SECTION
     hi CursorIM         ctermfg=16      ctermbg=225     cterm=NONE
     hi StatusLine       ctermfg=16      ctermbg=153     cterm=NONE
     hi LineNr           ctermfg=145     ctermbg=NONE    cterm=NONE
@@ -550,7 +550,7 @@ elseif &background=='dark'
     hi VertSplit        ctermfg=16      ctermbg=250     cterm=NONE
     hi Underlined       ctermfg=111     ctermbg=NONE    cterm=underline
     hi Ignore           ctermfg=16      ctermbg=NONE
-    " NOTE THIS IS IN THE COOL SECTION
+    " Note: THIS IS IN THE COOL SECTION
     if v:version >= 700
       if has('spell')
         " the ctermsp= is not supported in Vim 7 we simply ignored
