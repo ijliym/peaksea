@@ -187,7 +187,7 @@ if &background=='light'
     hi SpecialKey       ctermfg=25      ctermbg=NONE    cterm=NONE
     hi NonText          ctermfg=18      ctermbg=252     cterm=NONE
     " Comment/Uncomment the following line to disable/enable transparency
-    "hi NonText          ctermfg=18     ctermbg=NONE    cterm=NONE
+    "hi NonText          ctermfg=18      ctermbg=NONE    cterm=NONE
     hi Directory        ctermfg=127     ctermbg=NONE    cterm=NONE
     hi ErrorMsg         ctermfg=fg      ctermbg=216     cterm=NONE
     hi MoreMsg          ctermfg=64      ctermbg=NONE    cterm=NONE
@@ -260,7 +260,7 @@ if &background=='light'
     hi ModeMsg          cterm=bold
     hi TabLineSel       cterm=bold
 
-    "hi lCursor          ctermfg=bg      ctermbg=fg      cterm=NONE
+    "hi lCursor          ctermfg=bg       ctermbg=fg     cterm=NONE
   endif " t_Co==256
   " }}}2
 elseif &background=='dark'
@@ -413,12 +413,12 @@ elseif &background=='dark'
       hi CursorLineNr   ctermfg=DarkGrey    ctermbg=NONE         cterm=underline
     endif
     if &t_Co==8
-      " 8 colour terminal support, this assumes 16 colour is available through
-      " setting the 'bold' attribute, will get bright foreground colour.
+      " 8-color terminal support, this assumes 16-color is available through
+      " setting the 'bold' attribute, will get bright foreground color.
       " However, the bright background color is not available for 8-color terms.
       "
       " You can manually set t_Co=16 in your .vimrc to see if your terminal
-      " supports 16 colours,
+      " supports 16-color
       hi DiffText       cterm=NONE
       hi Visual         cterm=NONE
       hi Cursor         cterm=NONE
